@@ -1,0 +1,34 @@
+body{
+    background-image: url("Картинки/фон1.jpg");
+}
+#top {
+    height: 100px;
+    width: 0px;
+    margin: 0;
+}
+#topDyn {
+    margin-top: 0px;
+    height: 100px;
+    position: fixed;
+    width: 1500px;
+    background-image: url("Картинки/фон2.jpg");
+
+}
+#top  li {
+    font-family: "Comic Sans MS";
+    font-size: 250%;
+    list-style: none;
+    display: inline;
+}
+#top li a {
+    margin: 20px;
+    text-decoration: none;
+    color: darkgray; /* цвет текста*/
+}
+#infoform {
+    font-family: "Comic Sans MS";
+    list-style: none;
+    color: darkgray;
+}
+
+

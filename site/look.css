@@ -1,0 +1,96 @@
+body{
+    background-image: url("Картинки/фон1.jpg");
+}
+#top {
+     top: 0;
+     height: 120px;
+ }
+#topDyn {
+    margin-top: 0px;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+    background-image: url("Картинки/фон2.jpg");
+    top: 0;
+}
+#top  li {
+    font-family: "Comic Sans MS";
+    font-size: 250%;
+    list-style: none;
+    display: inline;
+}
+#top li a {
+    margin: 20px;
+    text-decoration: none;
+    color: darkgray; /* цвет текста*/
+}
+
+
+#sidebar {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    width:18%;
+    text-align: center;
+    float:left;
+    text-decoration: none;
+    position: fixed;
+
+}
+#sidebar p {
+    font-family: "Comic Sans MS";
+    font-size: 130%;
+    color: darkgray;
+}
+#sidebar a{
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 120%;
+    color: darkgray;
+    text-decoration: none;
+}
+
+#contentbar{
+    font-family: "Comic Sans MS";
+    float:right;
+}
+
+.content {
+    margin-top: 20px;
+    float:right;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 600px 600px 600px;
+}
+
+#form {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 100%;
+    color: darkgray;
+    text-decoration: none;
+    marine: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 800px 800px 800px 800px;
+}
+#infoform h1 {
+    font-family: "Comic Sans MS";
+    font-size: 130%;
+    color: darkgray;
+}
+
+#rightside{
+    float: left;
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 120%;
+    color: darkgray;
+    text-decoration: none;
+}
+#deffilm {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 800px 800px ;
+}
+
